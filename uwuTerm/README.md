@@ -2,9 +2,6 @@
 
 ## A terminal emulator that breadtard wrote as a joke. Most of the readme is still the same.
 
-### Why are you putting it on github then?
-because some guy in a discord server asked me lol
-
 ### How do i install it?
 On arch: `makepkg -si`
 
