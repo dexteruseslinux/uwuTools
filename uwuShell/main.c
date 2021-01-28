@@ -8,7 +8,7 @@
 int main(void) {
     char* currentDir = getcwd(currentDir, sizeof(currentDir)); // FIX-ME: this doesnt fucking work
     char* user = getenv("USER");         // yoink the username
-    printf("Welcome to uwuShell, %s\n", user);
+    printf("Welcome to Shell, %s\n", user);
     char *cmd[2048];                 // command we executing
     char *lastcmd[2048];             // previous command (used for !! bangers)
     while (1) {
